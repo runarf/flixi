@@ -1,4 +1,4 @@
-import getAllJourneysThereAndBack from "./refresh";
+import getAllJourneysThereAndBack from "./refresh.mjs";
 
 const removeJourneysWithUnavailablePriceAndTooManyStopOvers = (
   journey,

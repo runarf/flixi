@@ -1,5 +1,5 @@
 import flix from "flix";
-import dates from "./dates";
+import dates from "./dates/index.mjs";
 
 const berlinRegion = { type: "region", id: "88" };
 

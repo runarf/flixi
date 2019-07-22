@@ -1,10 +1,9 @@
-import cleanJourneysThereAndBack from "./clean";
-import getGoodJourneysThereAndBack from "./filter";
+import cleanJourneysThereAndBack from "./clean.mjs";
+import getGoodJourneysThereAndBack from "./filter.mjs";
 
-import getRoundTrips from "./roundTrips";
+import getRoundTrips from "./roundTrips.mjs";
 
 const getCheapestRoundTripPrice = async region => {
-  debugger;
   const goodJourneysThereAndBack = await getGoodJourneysThereAndBack(
     region
   );
@@ -16,7 +15,7 @@ const getCheapestRoundTripPrice = async region => {
 
   console.log(roundTrips.map(trip => trip.roundTripPrice));
 
-  return getCheapestRoundTripPrice;
+  return roundTrips;
 };
 
 export default getCheapestRoundTripPrice;
