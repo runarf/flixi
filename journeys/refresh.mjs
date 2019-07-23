@@ -47,7 +47,9 @@ const getJourneys = async (origin, destination, dates) => {
   }
   const journeys = await Promise.all(journeysPromises);
   console.log(
-    `${typeof journeys} ${journeys.length} ${journeys}`
+    `${typeof journeys} ${journeys.length} ${JSON.stringify(
+      journeys
+    )}`
   );
   return journeys.flat();
 };
