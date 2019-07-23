@@ -46,11 +46,6 @@ const getJourneys = async (origin, destination, dates) => {
     console.log(err);
   }
   const journeys = await Promise.all(journeysPromises);
-  console.log(
-    `${typeof journeys} ${journeys.length} ${JSON.stringify(
-      journeys
-    )}`
-  );
   return journeys.flat();
 };
 export default getAllJourneysThereAndBack;
