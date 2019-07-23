@@ -5,6 +5,7 @@ const removeJourneysWithUnavailablePriceAndTooManyStopOvers = (
   maxLegs
 ) => {
   return (
+    journey.status !== "full" &&
     journey.price.available &&
     journey.legs.length === maxLegs
   );

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --experimental-modules index.mjs",
+    "debug": "node --inspect-brk --experimental-modules index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
