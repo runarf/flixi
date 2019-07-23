@@ -6,7 +6,7 @@ import getCheapestRoundTripPrice from "./journeys/index.mjs";
 
 const app = express();
 app.use(cors());
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 app.get("/:regionId", async (req, res) => {
   try {
