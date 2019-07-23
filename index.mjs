@@ -1,8 +1,6 @@
 import express from "express";
 import cors from "cors";
 import getCheapestRoundTripPrice from "./journeys/index.mjs";
-// import writeJsonToFile from "./helper/index.mjs";
-// import cheapestRoundTrips from "./jsons/cheapestRoundTrips.mjs";
 
 const app = express();
 app.use(cors());
@@ -12,6 +10,7 @@ app.get("/:regionId", async (req, res) => {
   try {
     console.log(`Getting round trips`);
     const cheapestRoundTrips = await getCheapestRoundTripPrice(
+      2,
       {
         type: "region",
         id: req.params.regionId

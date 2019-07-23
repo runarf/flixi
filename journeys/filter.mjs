@@ -40,10 +40,13 @@ const getUniqueJourneysThereAndBack = allJourneysThereAndBack => {
   };
 };
 
-const getGoodJourneysThereAndBack = async region => {
+const getGoodJourneysThereAndBack = async (
+  weekendsAhead,
+  region
+) => {
   const allJourneysThereAndBack = await getAllJourneysThereAndBack(
     region,
-    1
+    weekendsAhead
   );
   const uniqueJourneysThereAndBack = getUniqueJourneysThereAndBack(
     allJourneysThereAndBack

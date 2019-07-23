@@ -2,7 +2,6 @@ import moment from "moment-timezone";
 
 const getDatesIn = (day, inWeeksFromNow) => {
   const lengthOfArray = inWeeksFromNow * 7 + 1;
-  console.log(`length of array is ${lengthOfArray}`);
   const tempa = Array(lengthOfArray).keys();
   const days = [...tempa].reduce((dates, dayIndex) => {
     const date = moment
