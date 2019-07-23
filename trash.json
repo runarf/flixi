@@ -1,0 +1,1060 @@
+[
+  [
+    {
+      "type": "journey",
+      "id": "interconnection-0-471-4468-79426531-251-88571811",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T04:35:00+02:00",
+          "arrival": "2019-07-26T06:40:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T09:15:00+02:00",
+          "arrival": "2019-07-26T10:50:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "1 seat left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 14.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=471&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-12468-4468-84428391-251-86425571",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "12468",
+            "name": "Berlin TXL, E",
+            "importance": 60
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T09:30:00+02:00",
+          "arrival": "2019-07-26T12:45:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T13:45:00+02:00",
+          "arrival": "2019-07-26T15:20:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 18.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=12468&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-1-4468-84428391-251-86425571",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T10:00:00+02:00",
+          "arrival": "2019-07-26T12:45:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T13:45:00+02:00",
+          "arrival": "2019-07-26T15:20:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 18.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-1224-4468-83815601-251-86425571",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1224",
+            "name": "Berlin Alexanderplatz",
+            "importance": 90
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T10:10:00+02:00",
+          "arrival": "2019-07-26T13:05:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T13:45:00+02:00",
+          "arrival": "2019-07-26T15:20:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 20.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1224&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-481-4468-84428391-251-86425571",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T10:15:00+02:00",
+          "arrival": "2019-07-26T12:45:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T13:45:00+02:00",
+          "arrival": "2019-07-26T15:20:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 18.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=481&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-471-4468-83815601-251-86425571",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T10:55:00+02:00",
+          "arrival": "2019-07-26T13:05:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T13:45:00+02:00",
+          "arrival": "2019-07-26T15:20:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 20.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=471&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-471-4468-82648411-251-86425581",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T14:25:00+02:00",
+          "arrival": "2019-07-26T16:35:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T18:45:00+02:00",
+          "arrival": "2019-07-26T20:20:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 19.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=471&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-1224-4468-83309991-251-82219121",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1224",
+            "name": "Berlin Alexanderplatz",
+            "importance": 90
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T14:40:00+02:00",
+          "arrival": "2019-07-26T17:35:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T18:55:00+02:00",
+          "arrival": "2019-07-26T20:30:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 22.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1224&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-80747791-1-4468",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T15:10:00+02:00",
+          "arrival": "2019-07-26T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 11.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-471-4468-83309991-251-82219121",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T15:25:00+02:00",
+          "arrival": "2019-07-26T17:35:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T18:55:00+02:00",
+          "arrival": "2019-07-26T20:30:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 22.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=471&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-80747791-481-4468",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T15:30:00+02:00",
+          "arrival": "2019-07-26T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=481&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-471-4468-85581311-29948-91544341",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "29948",
+            "name": "Legnica",
+            "importance": null
+          },
+          "departure": "2019-07-26T18:15:00+02:00",
+          "arrival": "2019-07-26T21:35:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "flixpl",
+            "name": "FlixBus Polska sp. z o.o.",
+            "url": "https://www.flixbus.pl/",
+            "address": "ul. Fabryczna 5a, 00-446 Warszawa"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "29948",
+            "name": "Legnica",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-26T22:30:00+02:00",
+          "arrival": "2019-07-27T00:25:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "flixpl",
+            "name": "FlixBus Polska sp. z o.o.",
+            "url": "https://www.flixbus.pl/",
+            "address": "ul. Fabryczna 5a, 00-446 Warszawa"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "1 seat left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.48,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=471&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-1-4468-82041581-251-91544351",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-26T23:59:00+02:00",
+          "arrival": "2019-07-27T03:00:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-27T04:20:00+02:00",
+          "arrival": "2019-07-27T05:55:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1&arrivalStation=4468&rideDate=26.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-481-4468-82041581-251-91544351",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-27T00:20:00+02:00",
+          "arrival": "2019-07-27T03:00:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-27T04:20:00+02:00",
+          "arrival": "2019-07-27T05:55:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=481&arrivalStation=4468&rideDate=27.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-471-4468-82041581-251-91544351",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-07-27T00:45:00+02:00",
+          "arrival": "2019-07-27T03:00:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "4468",
+            "name": "Görlitz",
+            "importance": 0
+          },
+          "departure": "2019-07-27T04:20:00+02:00",
+          "arrival": "2019-07-27T05:55:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=471&arrivalStation=4468&rideDate=27.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    }
+  ]
+]
