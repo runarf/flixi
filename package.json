@@ -7,9 +7,10 @@
     "node": "12.x"
   },
   "scripts": {
-    "start": "node --experimental-modules index.mjs",
-    "debug": "node --inspect-brk --experimental-modules index.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "debug": "node --inspect-brk index.js",
+    "test": "jest",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --watch --runInBand ."
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +20,8 @@
     "flix": "^5.0.1",
     "moment-timezone": "^0.5.26",
     "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }

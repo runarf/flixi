@@ -1,0 +1,37 @@
+[
+  {
+    "departure": "2019-07-28T10:05:00+02:00",
+    "arrival": "2019-07-28T15:55:00+02:00",
+    "legs": [
+      {
+        "origin": {
+          "id": "4468",
+          "name": "Görlitz"
+        },
+        "destination": {
+          "id": "251",
+          "name": "Dresden central station"
+        },
+        "departure": "2019-07-28T10:05:00+02:00",
+        "arrival": "2019-07-28T11:40:00+02:00"
+      },
+      {
+        "origin": {
+          "id": "251",
+          "name": "Dresden central station"
+        },
+        "destination": {
+          "id": "1224",
+          "name": "Berlin Alexanderplatz"
+        },
+        "departure": "2019-07-28T13:00:00+02:00",
+        "arrival": "2019-07-28T15:55:00+02:00"
+      }
+    ],
+    "price": {
+      "amount": 22.98,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=3408&arrivalCity=88&departureStation=4468&arrivalStation=1224&rideDate=28.07.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "price": 52.96,
+  "there": {
+    "origin": "Berlin central bus station",
+    "destination": "Görlitz",
+    "departure": "2019-08-02T23:59:00+02:00",
+    "arrival": "2019-08-03T05:55:00+02:00",
+    "price": 29.98,
+    "url": "there.com",
+    "stopovers": 2
+  },
+  "back": {
+    "origin": "Görlitz",
+    "destination": "Berlin Alexanderplatz",
+    "departure": "2019-07-28T10:05:00+02:00",
+    "arrival": "2019-07-28T15:55:00+02:00",
+    "price": 22.98,
+    "url": "back.com",
+    "stopovers": 2
+  }
+}

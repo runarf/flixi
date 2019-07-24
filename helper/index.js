@@ -1,8 +1,4 @@
-import fs from "fs";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
+const fs = require("fs");
 
 const writeJsonToFile = (json, fileName) => {
   fs.writeFile(
@@ -18,4 +14,4 @@ const writeJsonToFile = (json, fileName) => {
   );
 };
 
-export default writeJsonToFile;
+module.exports = writeJsonToFile;

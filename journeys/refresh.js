@@ -1,5 +1,5 @@
-import flix from "flix";
-import dates from "./dates/index.mjs";
+const flix = require("flix");
+const dates = require("./dates/index.js");
 
 const berlinRegion = { type: "region", id: "88" };
 
@@ -7,14 +7,14 @@ const getAllJourneysThereAndBack = async (
   region,
   weekends
 ) => {
-  const fridays = dates.getFridaysIn(weekends);
+  const fridays = dates.getEveryFridaysFromNowTo(weekends);
   const journeysThere = await getJourneys(
     berlinRegion,
     region,
     fridays
   );
 
-  const sundays = dates.getSundaysIn(weekends);
+  const sundays = dates.getEverySundaysFromNowTo(weekends);
   const journeysBack = await getJourneys(
     region,
     berlinRegion,
@@ -48,4 +48,4 @@ const getJourneys = async (origin, destination, dates) => {
   const journeys = await Promise.all(journeysPromises);
   return journeys.flat();
 };
-export default getAllJourneysThereAndBack;
+module.exports = getAllJourneysThereAndBack;
