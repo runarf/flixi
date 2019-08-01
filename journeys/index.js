@@ -1,10 +1,10 @@
-const { cleanJourneysThereAndBack } = require("./clean/");
+const { cleanJourneysThereAndBack } = require("./clean");
 const {
   getAvailableJourneysThereAndBack
-} = require("./filter/");
-const getAllJourneysThereAndBack = require("./refresh.js");
+} = require("./filter");
+const getAllJourneysThereAndBack = require("./refresh");
 
-const { getRoundTrips } = require("./roundTrips/");
+const { getRoundTrips } = require("./roundTrips");
 
 const getCheapestRoundTripPrice = async (
   weekendsAhead,

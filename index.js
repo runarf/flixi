@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const getCheapestRoundTripPrice = require("./journeys/index.js");
-
+const writeJsonToFile = require("./helper/");
 const app = express();
 app.use(cors());
 const port = process.env.PORT || 4000;
@@ -16,7 +16,9 @@ app.get("/:regionId", async (req, res) => {
         id: req.params.regionId
       }
     );
-    console.log(`Sending round trips`);
+    console.log(
+      `Sending ${cheapestRoundTrips.length} round trips`
+    );
     return res.json(cheapestRoundTrips);
   } catch (err) {
     console.log(err);

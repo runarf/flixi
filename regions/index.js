@@ -1,6 +1,8 @@
 const flix = require("flix");
 const helper = require("../helper");
 
+const berlinRegion = { type: "Region", code: "88" };
+
 const fetchRegions = () => {
   const regionStream = flix.regions.all();
   const regions = [];
@@ -49,28 +51,23 @@ const cleanRegions = regions => {
       const cleanRegion = {
         id: region.id,
         name: region.name,
-        countryCode: region.location.country.code
+        location: {
+          longitude: region.location.longitude,
+          latitude: region.location.latitude,
+          country: region.location.country
+        }
       };
       return cleanRegion;
     })
     .sort((a, b) =>
-      a.countryCode.localeCompare(b.countryCode)
+      a.location.country.code.localeCompare(b.location.country.code)
     );
   return cleanRegions;
   //helper.writeJsonToFile(cleanRegions, "regionsCloseToBerlin")
 };
 
 const getRegionsCloseToBerlinWithDirect = regions => {
-  const countriesCloseToBerlin = [
-    "AT",
-    "BE",
-    "CZ",
-    "DK",
-    "DE",
-    "NL",
-    "PL"
-  ];
-  const berlinRegion = { type: "Region", code: "88" };
+
   const berlinLocation = {
     longitude: 13.404616,
     latitude: 52.486081
@@ -118,7 +115,7 @@ const getRegionsCloseToBerlinWithDirect = regions => {
 const getRegionsByCountry = regions => {
   const regionsByCountry = regions.reduce(
     (countries, region) => {
-      const countryCode = region.countryCode;
+      const countryCode = region.location.country.code;
       if (countries.hasOwnProperty(countryCode)) {
         countries[countryCode] = [
           ...countries[countryCode],
@@ -135,14 +132,23 @@ const getRegionsByCountry = regions => {
   return regionsByCountry;
 };
 
-const regionsCloseToBerlin = getRegionsCloseToBerlinWithDirect(
-  require("../jsons/allRegions.json")
-);
+const getRegionsWithConnectionToBerlin = regions => {
+  const regionsWithConnectionToBerlin = regions.filter(
+    region => {
+      return region.connections.includes(
+        Number(berlinRegion.code)
+      );
+    }
+  );
+  return regionsWithConnectionToBerlin;
+};
 
-const dividedByCountry = getRegionsByCountry(
-  cleanRegions(regionsCloseToBerlin)
+const allRegions = require("../jsons/allRegions.json");
+const regionsWithConnectionToBerlin = getRegionsWithConnectionToBerlin(
+  allRegions
 );
-helper.writeJsonToFile(
-  dividedByCountry,
-  "dividedByCountry"
+const cleanedRegions = cleanRegions(
+  regionsWithConnectionToBerlin
 );
+const regionsByCountry =getRegionsByCountry(cleanedRegions)
+helper(regionsByCountry, "regionsWithConnectionToBerlin");
