@@ -16,7 +16,8 @@ const cleanJourneys = journeys => {
         name: arrivalLeg.destination.name
       },
       price: journey.price.amount,
-      url: journey.price.url
+      url: journey.price.url,
+      isDirect: legs.length === 1
     };
 
     return cleanedJourney;

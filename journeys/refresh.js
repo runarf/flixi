@@ -8,13 +8,14 @@ const getAllJourneysThereAndBack = async (
   weekends
 ) => {
   const fridays = dates.getEveryFridaysFromNowTo(weekends);
+  const sundays = dates.getEverySundaysFromNowTo(weekends);
+
   const journeysThere = await getJourneys(
     berlinRegion,
     region,
     fridays
   );
 
-  const sundays = dates.getEverySundaysFromNowTo(weekends);
   const journeysBack = await getJourneys(
     region,
     berlinRegion,
@@ -36,7 +37,7 @@ const getJourneys = async (origin, destination, dates) => {
         destination,
         {
           when: date.toDate(),
-          interval: 24 * 60,
+          interval: 48 * 60,
           transfers: 2
         }
       );

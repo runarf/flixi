@@ -23,9 +23,11 @@ const getCheapestRoundTripPrice = async (
     availableJourneysThereAndBack
   );
 
-  const roundTrips = getRoundTrips(cleanedJourneys);
+  return cleanedJourneys;
 
-  return roundTrips;
+  // const roundTrips = getRoundTrips(cleanedJourneys);
+
+  // return roundTrips;
 };
 
 module.exports = getCheapestRoundTripPrice;

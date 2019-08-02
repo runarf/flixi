@@ -10,14 +10,18 @@ app.get("/:regionId", async (req, res) => {
   try {
     console.log(`Getting round trips`);
     const cheapestRoundTrips = await getCheapestRoundTripPrice(
-      1,
+      2,
       {
         type: "region",
         id: req.params.regionId
       }
     );
     console.log(
-      `Sending ${cheapestRoundTrips.length} round trips`
+      `Sending ${
+        cheapestRoundTrips.there.length
+      } trips there, and ${
+        cheapestRoundTrips.back.length
+      } trips back`
     );
     return res.json(cheapestRoundTrips);
   } catch (err) {

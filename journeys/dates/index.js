@@ -1,7 +1,7 @@
 const moment = require("moment-timezone");
 
 const getDatesIn = (now, day, inWeeksFromNow) => {
-  const lengthOfArray = inWeeksFromNow * 7 + 1;
+  const lengthOfArray = inWeeksFromNow * 7;
   const days = [...Array(lengthOfArray).keys()].reduce(
     (dates, dayIndex) => {
       const date = now
