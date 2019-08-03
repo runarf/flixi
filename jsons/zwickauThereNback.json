@@ -1,0 +1,4572 @@
+{
+  "there": [
+    {
+      "type": "journey",
+      "id": "direct-84272891-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T08:30:00+02:00",
+          "arrival": "2019-08-09T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84272891-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T08:50:00+02:00",
+          "arrival": "2019-08-09T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84272891-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T09:15:00+02:00",
+          "arrival": "2019-08-09T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273051-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T11:50:00+02:00",
+          "arrival": "2019-08-09T16:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273051-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T12:10:00+02:00",
+          "arrival": "2019-08-09T16:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273051-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T12:35:00+02:00",
+          "arrival": "2019-08-09T16:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273151-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T15:00:00+02:00",
+          "arrival": "2019-08-09T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273151-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T15:25:00+02:00",
+          "arrival": "2019-08-09T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273151-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T15:50:00+02:00",
+          "arrival": "2019-08-09T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273201-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T17:10:00+02:00",
+          "arrival": "2019-08-09T21:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273201-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T17:30:00+02:00",
+          "arrival": "2019-08-09T21:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273201-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T17:55:00+02:00",
+          "arrival": "2019-08-09T21:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273301-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T19:30:00+02:00",
+          "arrival": "2019-08-09T23:50:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273301-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-09T19:50:00+02:00",
+          "arrival": "2019-08-09T23:50:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=09.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-1224-904-83310611-251-82206791",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1224",
+            "name": "Berlin Alexanderplatz",
+            "importance": 90
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-08-10T08:40:00+02:00",
+          "arrival": "2019-08-10T11:35:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T12:00:00+02:00",
+          "arrival": "2019-08-10T14:00:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 27.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1224&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273451-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T10:15:00+02:00",
+          "arrival": "2019-08-10T14:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273451-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T10:35:00+02:00",
+          "arrival": "2019-08-10T14:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273451-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T11:00:00+02:00",
+          "arrival": "2019-08-10T14:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273541-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T13:05:00+02:00",
+          "arrival": "2019-08-10T17:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273541-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T13:30:00+02:00",
+          "arrival": "2019-08-10T17:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273541-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T13:55:00+02:00",
+          "arrival": "2019-08-10T17:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273591-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T16:10:00+02:00",
+          "arrival": "2019-08-10T20:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273591-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T16:35:00+02:00",
+          "arrival": "2019-08-10T20:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273591-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-10T17:00:00+02:00",
+          "arrival": "2019-08-10T20:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=10.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275571-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T08:30:00+02:00",
+          "arrival": "2019-08-16T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275571-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T08:50:00+02:00",
+          "arrival": "2019-08-16T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275571-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T09:15:00+02:00",
+          "arrival": "2019-08-16T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275711-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T11:50:00+02:00",
+          "arrival": "2019-08-16T16:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275711-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T12:10:00+02:00",
+          "arrival": "2019-08-16T16:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275711-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T12:35:00+02:00",
+          "arrival": "2019-08-16T16:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275821-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T15:00:00+02:00",
+          "arrival": "2019-08-16T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275821-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T15:25:00+02:00",
+          "arrival": "2019-08-16T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275821-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T15:50:00+02:00",
+          "arrival": "2019-08-16T19:35:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275861-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T17:10:00+02:00",
+          "arrival": "2019-08-16T21:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275861-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T17:30:00+02:00",
+          "arrival": "2019-08-16T21:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275861-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T17:55:00+02:00",
+          "arrival": "2019-08-16T21:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275961-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T19:30:00+02:00",
+          "arrival": "2019-08-16T23:50:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84275961-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-16T19:50:00+02:00",
+          "arrival": "2019-08-16T23:50:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=16.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "interconnection-0-1224-904-83310891-251-82208551",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1224",
+            "name": "Berlin Alexanderplatz",
+            "importance": 90
+          },
+          "destination": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "departure": "2019-08-17T08:40:00+02:00",
+          "arrival": "2019-08-17T11:35:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        },
+        {
+          "origin": {
+            "type": "station",
+            "id": "251",
+            "name": "Dresden central station",
+            "importance": null
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T12:00:00+02:00",
+          "arrival": "2019-08-17T14:00:00+02:00",
+          "hint": null,
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.98,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1224&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276111-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T10:15:00+02:00",
+          "arrival": "2019-08-17T14:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276111-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T10:35:00+02:00",
+          "arrival": "2019-08-17T14:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276111-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T11:00:00+02:00",
+          "arrival": "2019-08-17T14:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276201-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T13:05:00+02:00",
+          "arrival": "2019-08-17T17:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276201-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T13:30:00+02:00",
+          "arrival": "2019-08-17T17:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276201-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T13:55:00+02:00",
+          "arrival": "2019-08-17T17:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276251-1-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T16:10:00+02:00",
+          "arrival": "2019-08-17T20:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=1&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276251-481-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T16:35:00+02:00",
+          "arrival": "2019-08-17T20:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=481&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84276251-471-904",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "destination": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "departure": "2019-08-17T17:00:00+02:00",
+          "arrival": "2019-08-17T20:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=796&departureStation=471&arrivalStation=904&rideDate=17.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    }
+  ],
+  "back": [
+    {
+      "type": "journey",
+      "id": "direct-84271021-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-04T08:50:00+02:00",
+          "arrival": "2019-08-04T13:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 29.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271021-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-04T08:50:00+02:00",
+          "arrival": "2019-08-04T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 29.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271021-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-04T08:50:00+02:00",
+          "arrival": "2019-08-04T12:30:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 29.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271061-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-04T11:10:00+02:00",
+          "arrival": "2019-08-04T15:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 2 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271061-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-04T11:10:00+02:00",
+          "arrival": "2019-08-04T15:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 2 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271061-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-04T11:10:00+02:00",
+          "arrival": "2019-08-04T14:50:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 2 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271171-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-04T13:15:00+02:00",
+          "arrival": "2019-08-04T17:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 5 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271171-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-04T13:15:00+02:00",
+          "arrival": "2019-08-04T17:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 5 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271171-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-04T13:15:00+02:00",
+          "arrival": "2019-08-04T16:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 5 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271341-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-04T17:45:00+02:00",
+          "arrival": "2019-08-04T22:15:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 4 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271341-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-04T17:45:00+02:00",
+          "arrival": "2019-08-04T21:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 4 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271341-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-04T17:45:00+02:00",
+          "arrival": "2019-08-04T21:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "Only 4 seats available!",
+        "warnings": []
+      },
+      "price": {
+        "amount": 34.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=04.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271441-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-05T06:15:00+02:00",
+          "arrival": "2019-08-05T10:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271441-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-05T06:15:00+02:00",
+          "arrival": "2019-08-05T10:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271441-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-05T06:15:00+02:00",
+          "arrival": "2019-08-05T09:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271491-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-05T08:50:00+02:00",
+          "arrival": "2019-08-05T13:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271491-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-05T08:50:00+02:00",
+          "arrival": "2019-08-05T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271491-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-05T08:50:00+02:00",
+          "arrival": "2019-08-05T12:30:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271581-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-05T12:15:00+02:00",
+          "arrival": "2019-08-05T16:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271581-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-05T12:15:00+02:00",
+          "arrival": "2019-08-05T16:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271581-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-05T12:15:00+02:00",
+          "arrival": "2019-08-05T15:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271731-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-05T15:50:00+02:00",
+          "arrival": "2019-08-05T20:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "1 seat left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271731-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-05T15:50:00+02:00",
+          "arrival": "2019-08-05T20:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "1 seat left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84271731-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-05T15:50:00+02:00",
+          "arrival": "2019-08-05T19:30:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "1 seat left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=05.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273641-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-11T08:50:00+02:00",
+          "arrival": "2019-08-11T13:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273641-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-11T08:50:00+02:00",
+          "arrival": "2019-08-11T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273641-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-11T08:50:00+02:00",
+          "arrival": "2019-08-11T12:30:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273701-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-11T11:10:00+02:00",
+          "arrival": "2019-08-11T15:40:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273701-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-11T11:10:00+02:00",
+          "arrival": "2019-08-11T15:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273701-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-11T11:10:00+02:00",
+          "arrival": "2019-08-11T14:50:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273801-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-11T13:15:00+02:00",
+          "arrival": "2019-08-11T17:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273801-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-11T13:15:00+02:00",
+          "arrival": "2019-08-11T17:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273801-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-11T13:15:00+02:00",
+          "arrival": "2019-08-11T16:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273961-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-11T17:45:00+02:00",
+          "arrival": "2019-08-11T22:15:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273961-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-11T17:45:00+02:00",
+          "arrival": "2019-08-11T21:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84273961-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-11T17:45:00+02:00",
+          "arrival": "2019-08-11T21:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 21.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=11.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274061-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-12T06:15:00+02:00",
+          "arrival": "2019-08-12T10:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274061-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-12T06:15:00+02:00",
+          "arrival": "2019-08-12T10:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274061-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-12T06:15:00+02:00",
+          "arrival": "2019-08-12T09:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 13.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274111-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-12T08:50:00+02:00",
+          "arrival": "2019-08-12T13:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274111-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-12T08:50:00+02:00",
+          "arrival": "2019-08-12T13:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274111-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-12T08:50:00+02:00",
+          "arrival": "2019-08-12T12:30:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274221-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-12T12:15:00+02:00",
+          "arrival": "2019-08-12T16:45:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274221-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-12T12:15:00+02:00",
+          "arrival": "2019-08-12T16:25:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274221-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-12T12:15:00+02:00",
+          "arrival": "2019-08-12T15:55:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": null,
+        "warnings": []
+      },
+      "price": {
+        "amount": 17.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274361-904-1",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "1",
+            "name": "Berlin central bus station",
+            "importance": 100
+          },
+          "departure": "2019-08-12T15:50:00+02:00",
+          "arrival": "2019-08-12T20:20:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=1&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274361-904-481",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "481",
+            "name": "Berlin Südkreuz",
+            "importance": 80
+          },
+          "departure": "2019-08-12T15:50:00+02:00",
+          "arrival": "2019-08-12T20:00:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=481&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    },
+    {
+      "type": "journey",
+      "id": "direct-84274361-904-471",
+      "legs": [
+        {
+          "origin": {
+            "type": "station",
+            "id": "904",
+            "name": "Zwickau Stadthalle",
+            "importance": 10
+          },
+          "destination": {
+            "type": "station",
+            "id": "471",
+            "name": "Berlin SXF",
+            "importance": 70
+          },
+          "departure": "2019-08-12T15:50:00+02:00",
+          "arrival": "2019-08-12T19:30:00+02:00",
+          "operator": {
+            "type": "operator",
+            "id": "mfb",
+            "name": "FlixBus DACH GmbH",
+            "url": "http://flixbus.de",
+            "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+          },
+          "mode": "bus",
+          "public": true
+        }
+      ],
+      "status": "available",
+      "borders": false,
+      "info": {
+        "title": null,
+        "hint": null,
+        "message": "2 seats left at this price",
+        "warnings": []
+      },
+      "price": {
+        "amount": 15.99,
+        "currency": "EUR",
+        "discounts": null,
+        "saleRestriction": false,
+        "available": true,
+        "url": "https://shop.global.flixbus.com/s?departureCity=796&arrivalCity=88&departureStation=904&arrivalStation=471&rideDate=12.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+      }
+    }
+  ]
+}

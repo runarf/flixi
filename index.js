@@ -24,10 +24,10 @@ app.get("/:regionId", async (req, res) => {
       } trips back`
     );
 
-    writeJsonToFile(
-      cheapestRoundTrips,
-      "thereNbackToPrague"
-    );
+    // writeJsonToFile(
+    //   cheapestRoundTrips,
+    //   "thereNbackToPrague"
+    // );
 
     return res.json(cheapestRoundTrips);
   } catch (err) {

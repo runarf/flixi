@@ -159,6 +159,10 @@ const getUniqueAvailableJourneys = (
 };
 
 const getAvailableJourneysThereAndBack = async allJourneysThereAndBack => {
+  writeFileToJson(
+    allJourneysThereAndBack,
+    "zwickauThereNback"
+  );
   const uniqueJourneysThereAndBack = {
     there: getUniqueAvailableJourneys(
       allJourneysThereAndBack.there,
