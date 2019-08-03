@@ -1,0 +1,190 @@
+[
+  {
+    "type": "journey",
+    "id": "direct-81426331-1-1494",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "1",
+          "name": "Berlin central bus station",
+          "importance": 100
+        },
+        "destination": {
+          "type": "station",
+          "id": "1494",
+          "name": "Prague ÚAN Florenc",
+          "importance": 99
+        },
+        "departure": "2019-08-02T19:00:00+02:00",
+        "arrival": "2019-08-02T23:40:00+02:00",
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 23.9,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=1374&departureStation=1&arrivalStation=1494&rideDate=02.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  },
+  {
+    "type": "journey",
+    "id": "direct-81426331-1-6988",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "1",
+          "name": "Berlin central bus station",
+          "importance": 100
+        },
+        "destination": {
+          "type": "station",
+          "id": "6988",
+          "name": "Prague Main Railway Station",
+          "importance": 1
+        },
+        "departure": "2019-08-02T19:00:00+02:00",
+        "arrival": "2019-08-02T23:55:00+02:00",
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 23.9,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=1374&departureStation=1&arrivalStation=6988&rideDate=02.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  },
+  {
+    "type": "journey",
+    "id": "direct-81426331-481-1494",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "481",
+          "name": "Berlin Südkreuz",
+          "importance": 80
+        },
+        "destination": {
+          "type": "station",
+          "id": "1494",
+          "name": "Prague ÚAN Florenc",
+          "importance": 99
+        },
+        "departure": "2019-08-02T19:20:00+02:00",
+        "arrival": "2019-08-02T23:40:00+02:00",
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 23.9,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=1374&departureStation=481&arrivalStation=1494&rideDate=02.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  },
+  {
+    "type": "journey",
+    "id": "direct-81426331-481-6988",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "481",
+          "name": "Berlin Südkreuz",
+          "importance": 80
+        },
+        "destination": {
+          "type": "station",
+          "id": "6988",
+          "name": "Prague Main Railway Station",
+          "importance": 1
+        },
+        "departure": "2019-08-02T19:20:00+02:00",
+        "arrival": "2019-08-02T23:55:00+02:00",
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 23.9,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=1374&departureStation=481&arrivalStation=6988&rideDate=02.08.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  }
+]
