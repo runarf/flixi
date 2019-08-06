@@ -54,10 +54,14 @@ const getConcatenatedJourneyInformation = (
         ? journeyLegs[0].origin
         : journeyLegs[journeyLegs.length - 1].destination;
 
-      const stations = [
-        ...concatenatedJourney.stations,
-        { name, id }
-      ];
+      const newStation = { name, id };
+      const stations = concatenatedJourney.stations.some(
+        station =>
+          station.name === newStation.name &&
+          station.id === newStation.id
+      )
+        ? [...concatenatedJourney.stations]
+        : [...concatenatedJourney.stations, newStation];
 
       const journeyPrice = journey.price.amount;
       const currentCheapestPrice =
