@@ -1,10 +1,21 @@
 const express = require("express");
 const cors = require("cors");
-const getCheapestRoundTripPrice = require("./journeys/index.js");
-const writeJsonToFile = require("./helper/");
+const getCheapestRoundTripPrice = require("./main/");
+const writeJsonToFile = require("./misc/helper/");
 const app = express();
-app.use(cors());
-const port = process.env.PORT || 4000;
+
+const origin =
+  process.env.NODE_ENV !== "production"
+    ? "http://localhost:3000"
+    : "https://runarf.github.io";
+
+console.log(`origin allowed is ${origin}`);
+
+app.use(
+  cors({
+    origin
+  })
+);
 
 app.get("/:regionId", async (req, res) => {
   try {
@@ -30,6 +41,7 @@ app.get("/:regionId", async (req, res) => {
   }
 });
 
+const port = process.env.PORT || 4000;
 app.listen(port, () =>
   console.log(`Example app is listening on port ${port}`)
 );
