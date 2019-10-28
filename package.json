@@ -7,9 +7,9 @@
     "node": "12.x"
   },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "debug": "node --inspect-brk index.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "debug": "node --inspect-brk src/index.js",
     "test": "jest",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --watch --runInBand ."
   },
