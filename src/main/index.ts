@@ -4,7 +4,7 @@ const {
 } = require("./filter/");
 const getAllJourneysThereAndBack = require("./refresh/");
 
-const getCheapestRoundTripPrice = async (
+const getCheapestRoundTripPrice1 = async (
   weekendsAhead,
   region
 ) => {
@@ -24,4 +24,4 @@ const getCheapestRoundTripPrice = async (
   return cleanedJourneys;
 };
 
-module.exports = getCheapestRoundTripPrice;
+module.exports = getCheapestRoundTripPrice1;

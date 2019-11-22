@@ -1,5 +1,5 @@
-const moment = require("moment-timezone");
-const writeToJson = require("../../helper/index.js");
+import moment from "moment-timezone";
+import writeToJson from "../../helper/index.js";
 
 const getRoundTripsOverWeekend = (
   roundTrips,

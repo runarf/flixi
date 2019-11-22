@@ -1,4 +1,4 @@
-const fs = require("fs");
+import * as fs from "fs";
 
 const writeJsonToFile = (json, fileName) => {
   fs.writeFile(
@@ -14,4 +14,4 @@ const writeJsonToFile = (json, fileName) => {
   );
 };
 
-module.exports = writeJsonToFile;
+export { writeJsonToFile };
