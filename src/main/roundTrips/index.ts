@@ -1,5 +1,4 @@
-import moment from "moment-timezone";
-import writeToJson from "../../helper/index.js";
+import * as moment from "moment-timezone";
 
 const getRoundTripsOverWeekend = (
   roundTrips,

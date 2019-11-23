@@ -1,8 +1,10 @@
+import { Journey, Leg, Station } from "flix";
+
 const writeFileToJson = require("../../misc/helper");
 
 const removeJourneysUnavailableAndTooManyStopOvers = (
-  journey,
-  maxLegs
+  journey: Journey,
+  maxLegs: number
 ) => {
   return (
     journey.status !== "full" &&
@@ -11,7 +13,7 @@ const removeJourneysUnavailableAndTooManyStopOvers = (
   );
 };
 
-const getJourneysById = journeys => {
+const getJourneysById = (journeys: Journey[]) => {
   const journeysById = journeys.reduce(
     (journeysById, journey) => {
       const journeyIdParts = journey.id.split("-");
@@ -44,17 +46,20 @@ const getJourneysById = journeys => {
 };
 
 const getConcatenatedJourneyInformation = (
-  journeys,
-  isGoingThere
+  journeys: Journey[],
+  isGoingThere: boolean
 ) => {
-  const concatenatedJourneyInformation = journeys.reduce(
+  const concatenatedJourneyInformation = journeys.reduce<{
+    stations: Station[];
+    cheapestPrice: number;
+  }>(
     (concatenatedJourney, journey) => {
       const journeyLegs = journey.legs;
-      const { name, id } = isGoingThere
+      const newStation = (isGoingThere
         ? journeyLegs[0].origin
-        : journeyLegs[journeyLegs.length - 1].destination;
+        : journeyLegs[journeyLegs.length - 1]
+            .destination) as Station;
 
-      const newStation = { name, id };
       const stations = concatenatedJourney.stations.some(
         station =>
           station.name === newStation.name &&
@@ -84,22 +89,36 @@ const getConcatenatedJourneyInformation = (
   return concatenatedJourneyInformation;
 };
 
+interface JourneysById {
+  [key: string]: Journey[];
+}
+
 const getConcatenatedJourneys = (
-  journeysById,
-  isGoingThere
+  journeysById: JourneysById,
+  isGoingThere: boolean
 ) => {
-  const concatenatedJourneys = Object.entries(
-    journeysById
-  ).map(([journeyId, journeys]) => {
-    if (journeyId === "nonDirect") {
-      return journeys;
-    }
+  const temp = Object.entries(journeysById);
+
+  const reducedTemp = temp.reduce(
+    (acc, [journeyId, journeys]) => {
+      if (journeyId === "nonDirect") {
+        return [...acc, ...journeys];
+      } else {
+        return [...acc, journeys];
+      }
+    },
+    []
+  ) as Journey[][];
+
+  const concatenatedJourneys = reducedTemp.map(journeys => {
     const concatenatedJourneyInformation = getConcatenatedJourneyInformation(
       journeys,
       isGoingThere
     );
 
-    const concatenatedJourney = { ...journeys[0] };
+    const concatenatedJourney: Journey = {
+      ...journeys[0]
+    };
 
     const stations = concatenatedJourneyInformation.stations.sort(
       (a, b) => a.name.localeCompare(b.name)
@@ -121,13 +140,15 @@ const getConcatenatedJourneys = (
     return concatenatedJourney;
   });
 
-  return concatenatedJourneys.flat();
+  const tomp = concatenatedJourneys;
+
+  return tomp;
 };
 
 const concatenateSimilarJourneys = (
-  journeys,
-  isGoingThere
-) => {
+  journeys: Journey[],
+  isGoingThere: boolean
+): Journey[] => {
   const journeysById = getJourneysById(journeys);
 
   const concatenatedJourneys = getConcatenatedJourneys(
@@ -139,10 +160,10 @@ const concatenateSimilarJourneys = (
 };
 
 const getUniqueAvailableJourneys = (
-  allJourneys,
-  isGoingThere,
+  allJourneys: Journey[],
+  isGoingThere: boolean,
   maxLegs = 2
-) => {
+): Journey[] => {
   const availableJourneys = allJourneys
     .filter(journey =>
       removeJourneysUnavailableAndTooManyStopOvers(
@@ -162,7 +183,10 @@ const getUniqueAvailableJourneys = (
   return concatenatedJourneys;
 };
 
-const getAvailableJourneysThereAndBack = async allJourneysThereAndBack => {
+const getAvailableJourneysThereAndBack = async (allJourneysThereAndBack: {
+  there: Journey[];
+  back: Journey[];
+}) => {
   const uniqueJourneysThereAndBack = {
     there: getUniqueAvailableJourneys(
       allJourneysThereAndBack.there,
@@ -177,12 +201,4 @@ const getAvailableJourneysThereAndBack = async allJourneysThereAndBack => {
   return uniqueJourneysThereAndBack;
 };
 
-// const journeysToPrague = require("../../jsons/journeysToPrague.json");
-
-// const concatenatedJourneys = getUniqueAvailableJourneys(
-//   journeysToPrague,
-//   true
-// );
-// writeFileToJson(concatenatedJourneys, "concatJourneys");
-
-module.exports = { getAvailableJourneysThereAndBack };
+export { getAvailableJourneysThereAndBack };

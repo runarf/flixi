@@ -1,12 +1,10 @@
-const { cleanJourneysThereAndBack } = require("./clean/");
-const {
-  getAvailableJourneysThereAndBack
-} = require("./filter/");
-const getAllJourneysThereAndBack = require("./refresh/");
+import { cleanJourneysThereAndBack } from "./clean/";
+import { getAvailableJourneysThereAndBack } from "./filter/";
+import { getAllJourneysThereAndBack } from "./refresh/";
 
 const getCheapestRoundTripPrice1 = async (
-  weekendsAhead,
-  region
+  weekendsAhead: number,
+  region: string
 ) => {
   const allJourneysThereAndBack = await getAllJourneysThereAndBack(
     region,
@@ -24,4 +22,4 @@ const getCheapestRoundTripPrice1 = async (
   return cleanedJourneys;
 };
 
-module.exports = getCheapestRoundTripPrice1;
+export { getCheapestRoundTripPrice1 };

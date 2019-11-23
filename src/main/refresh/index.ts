@@ -1,5 +1,6 @@
-const flix = require("flix");
-const dates = require("../dates");
+import * as flix from "flix";
+import * as dates from "../dates";
+import { Moment } from "moment-timezone";
 
 const berlinRegion = { type: "region", id: "88" };
 
@@ -28,11 +29,15 @@ const getAllJourneysThereAndBack = async (
   };
 };
 
-const getJourneys = async (origin, destination, dates) => {
-  let journeysPromises = {};
+const getJourneys = async (
+  origin,
+  destination,
+  dates: Moment[]
+): Promise<flix.Journey[]> => {
+  let journeysPromises: Promise<flix.Journey[]>[];
   try {
     journeysPromises = dates.map(date => {
-      const journeyPromise = flix.journeys(
+      const journeyPromise: Promise<flix.Journey[]> = flix.journeys(
         origin,
         destination,
         {
@@ -49,4 +54,4 @@ const getJourneys = async (origin, destination, dates) => {
   const journeys = await Promise.all(journeysPromises);
   return journeys.flat();
 };
-module.exports = getAllJourneysThereAndBack;
+export { getAllJourneysThereAndBack };
