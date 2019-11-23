@@ -1,6 +1,5 @@
 import { Journey, Leg, Station } from "flix";
-
-const writeFileToJson = require("../../misc/helper");
+import { ThereAndBack } from "..";
 
 const removeJourneysUnavailableAndTooManyStopOvers = (
   journey: Journey,
@@ -183,19 +182,19 @@ const getUniqueAvailableJourneys = (
   return concatenatedJourneys;
 };
 
-const getAvailableJourneysThereAndBack = async (allJourneysThereAndBack: {
-  there: Journey[];
-  back: Journey[];
-}) => {
-  const uniqueJourneysThereAndBack = {
-    there: getUniqueAvailableJourneys(
-      allJourneysThereAndBack.there,
-      true
-    ),
-    back: getUniqueAvailableJourneys(
-      allJourneysThereAndBack.back,
-      false
-    )
+const getAvailableJourneysThereAndBack = async allJourneysThereAndBack => {
+  const there = getUniqueAvailableJourneys(
+    allJourneysThereAndBack.there,
+    true
+  );
+  const back = getUniqueAvailableJourneys(
+    allJourneysThereAndBack.back,
+    false
+  );
+
+  const uniqueJourneysThereAndBack: ThereAndBack = {
+    there,
+    back
   };
 
   return uniqueJourneysThereAndBack;
