@@ -4,7 +4,7 @@ import {
 } from "./clean/";
 import { getAvailableJourneysThereAndBack } from "./filter/";
 import { getAllJourneysThereAndBack } from "./refresh/";
-import { Journey } from "flix";
+import { Journey, Station } from "flix";
 
 export interface ThereAndBack {
   there: Journey[];
@@ -13,7 +13,7 @@ export interface ThereAndBack {
 
 const getCheapestRoundTripPrice1 = async (
   weekendsAhead: number,
-  region: string
+  region: Station
 ): Promise<CleanThereAndBack> => {
   const allJourneysThereAndBack: ThereAndBack = await getAllJourneysThereAndBack(
     region,

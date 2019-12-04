@@ -1,7 +1,8 @@
-const express = require("express");
-const cors = require("cors");
-const getCheapestRoundTripPrice = require("./main/");
-const writeJsonToFile = require("./misc/helper/");
+import * as express from "express";
+import * as cors from "cors";
+import { getCheapestRoundTripPrice1 } from "./main/";
+import { Station } from "flix";
+
 const app = express();
 
 const originUrl =
@@ -13,19 +14,20 @@ console.log(`origin allowed is ${originUrl}`);
 
 app.use(
   cors({
-    originUrl
+    origin: originUrl
   })
 );
 
 app.get("/:regionId", async (req, res) => {
   try {
     console.log(`Getting round trips`);
-    const cheapestRoundTrips = await getCheapestRoundTripPrice(
+    const region: Station = {
+      type: "region",
+      id: req.params.regionId
+    };
+    const cheapestRoundTrips = await getCheapestRoundTripPrice1(
       2,
-      {
-        type: "region",
-        id: req.params.regionId
-      }
+      region
     );
     console.log(
       `Sending ${cheapestRoundTrips.there.length} trips there, and ${cheapestRoundTrips.back.length} trips back`

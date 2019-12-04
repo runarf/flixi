@@ -2,7 +2,7 @@ declare module "flix" {
   export interface Station {
     type?: string;
     id: string;
-    name: string;
+    name?: string;
     importance?: number;
   }
 
@@ -51,8 +51,8 @@ declare module "flix" {
   }
 
   export function journeys(
-    origin: string,
-    destination: string,
+    origin: Station,
+    destination: Station,
     options: JourneysOption
   ): Promise<Journey[]>;
 }

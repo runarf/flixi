@@ -18,18 +18,19 @@ const getJourneysById = (journeys: Journey[]) => {
       const journeyIdParts = journey.id.split("-");
 
       if (journeyIdParts[0] === "direct") {
+        let directJourney
         const journeyId = journeyIdParts[1];
         if (journeyId in journeysById) {
           const previousJourneys = journeysById[journeyId];
-          return {
-            ...journeysById,
-            [journeyId]: [...previousJourneys, journey]
-          };
+          directJourney = [...previousJourneys, journey]
+          
         } else {
-          return {
-            ...journeysById,
-            [journeyId]: [journey]
+          directJourney = [journey]
           };
+        
+        return {
+          ...journeysById,
+          [journeyId]: directJourney
         }
       } else {
         return {
@@ -43,6 +44,10 @@ const getJourneysById = (journeys: Journey[]) => {
 
   return journeysById;
 };
+
+const getDirectJourney = (journeysById, journeyId: String) => {
+
+}
 
 const getConcatenatedJourneyInformation = (
   journeys: Journey[],

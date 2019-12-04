@@ -1,11 +1,15 @@
-import * as flix from "flix";
+import {
+  Station,
+  Journey,
+  journeys as flixJourneys
+} from "flix";
 import * as dates from "../dates";
 import { Moment } from "moment-timezone";
 
-const berlinRegion = { type: "region", id: "88" };
+const berlinRegion: Station = { type: "region", id: "88" };
 
 const getAllJourneysThereAndBack = async (
-  region,
+  region: Station,
   weekends
 ) => {
   const fridays = dates.getEveryFridaysFromNowTo(weekends);
@@ -30,14 +34,14 @@ const getAllJourneysThereAndBack = async (
 };
 
 const getJourneys = async (
-  origin,
-  destination,
+  origin: Station,
+  destination: Station,
   dates: Moment[]
-): Promise<flix.Journey[]> => {
-  let journeysPromises: Promise<flix.Journey[]>[];
+): Promise<Journey[]> => {
+  let journeysPromises: Promise<Journey[]>[];
   try {
     journeysPromises = dates.map(date => {
-      const journeyPromise: Promise<flix.Journey[]> = flix.journeys(
+      const journeyPromise: Promise<Journey[]> = flixJourneys(
         origin,
         destination,
         {
