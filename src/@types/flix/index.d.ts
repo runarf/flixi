@@ -53,6 +53,29 @@ declare module "flix" {
   export function journeys(
     origin: Station,
     destination: Station,
-    options: JourneysOption
+    options?: JourneysOption
   ): Promise<Journey[]>;
+
+  export interface Region {
+    type: string;
+    id: string;
+    name: string;
+    location: {
+      type: string;
+      longitude: number;
+      latitude: number;
+      country: {
+        name: string;
+        code: string;
+      };
+    };
+    class: string;
+    stations: string[];
+    connections: number[];
+    slug: string;
+  }
+
+  export namespace regions {
+    export function all(): any;
+  }
 }

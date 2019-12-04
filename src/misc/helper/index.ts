@@ -2,7 +2,7 @@ import * as fs from "fs";
 
 const writeJsonToFile = (json, fileName) => {
   fs.writeFile(
-    `${__dirname}/../jsons/${fileName}.json`,
+    `${__dirname}/jsons/${fileName}.json`,
     JSON.stringify(json, null, 2),
     err => {
       if (err) {

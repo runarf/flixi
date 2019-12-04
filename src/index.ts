@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as cors from "cors";
-import { getCheapestRoundTripPrice1 } from "./main/";
+import { getCheapestRoundTripPrice } from "./main/";
 import { Station } from "flix";
 
 const app = express();
@@ -25,7 +25,7 @@ app.get("/:regionId", async (req, res) => {
       type: "region",
       id: req.params.regionId
     };
-    const cheapestRoundTrips = await getCheapestRoundTripPrice1(
+    const cheapestRoundTrips = await getCheapestRoundTripPrice(
       2,
       region
     );

@@ -3,7 +3,7 @@ import {
   CleanThereAndBack
 } from "./clean/";
 import { getAvailableJourneysThereAndBack } from "./filter/";
-import { getAllJourneysThereAndBack } from "./refresh/";
+import { getAllJourneysThereAndBack } from "./getJourneys";
 import { Journey, Station } from "flix";
 
 export interface ThereAndBack {
@@ -11,7 +11,7 @@ export interface ThereAndBack {
   back: Journey[];
 }
 
-const getCheapestRoundTripPrice1 = async (
+const getCheapestRoundTripPrice = async (
   weekendsAhead: number,
   region: Station
 ): Promise<CleanThereAndBack> => {
@@ -31,4 +31,4 @@ const getCheapestRoundTripPrice1 = async (
   return cleanedJourneys;
 };
 
-export { getCheapestRoundTripPrice1 };
+export { getCheapestRoundTripPrice };

@@ -1,0 +1,318 @@
+[
+  {
+    "type": "journey",
+    "id": "direct-96598241-1-4468",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "1",
+          "name": "Berlin central bus station",
+          "importance": 100
+        },
+        "destination": {
+          "type": "station",
+          "id": "4468",
+          "name": "Görlitz",
+          "importance": 0
+        },
+        "departure": "2019-12-04T15:10:00+01:00",
+        "arrival": "2019-12-04T19:25:00+01:00",
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 11.99,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1&arrivalStation=4468&rideDate=04.12.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  },
+  {
+    "type": "journey",
+    "id": "interconnection-0-1224-4468-95548821-251-96273461",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "1224",
+          "name": "Berlin Alexanderplatz",
+          "importance": 90
+        },
+        "destination": {
+          "type": "station",
+          "id": "251",
+          "name": "Dresden central station",
+          "importance": null
+        },
+        "departure": "2019-12-04T15:10:00+01:00",
+        "arrival": "2019-12-04T18:00:00+01:00",
+        "hint": null,
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      },
+      {
+        "origin": {
+          "type": "station",
+          "id": "251",
+          "name": "Dresden central station",
+          "importance": null
+        },
+        "destination": {
+          "type": "station",
+          "id": "4468",
+          "name": "Görlitz",
+          "importance": 0
+        },
+        "departure": "2019-12-04T18:40:00+01:00",
+        "arrival": "2019-12-04T20:15:00+01:00",
+        "hint": null,
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 14.98,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1224&arrivalStation=4468&rideDate=04.12.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  },
+  {
+    "type": "journey",
+    "id": "direct-96598241-481-4468",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "481",
+          "name": "Berlin Südkreuz",
+          "importance": 80
+        },
+        "destination": {
+          "type": "station",
+          "id": "4468",
+          "name": "Görlitz",
+          "importance": 0
+        },
+        "departure": "2019-12-04T15:30:00+01:00",
+        "arrival": "2019-12-04T19:25:00+01:00",
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 11.99,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=481&arrivalStation=4468&rideDate=04.12.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  },
+  {
+    "type": "journey",
+    "id": "interconnection-0-471-4468-95548821-251-96273461",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "471",
+          "name": "Berlin SXF",
+          "importance": 70
+        },
+        "destination": {
+          "type": "station",
+          "id": "251",
+          "name": "Dresden central station",
+          "importance": null
+        },
+        "departure": "2019-12-04T15:55:00+01:00",
+        "arrival": "2019-12-04T18:00:00+01:00",
+        "hint": null,
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      },
+      {
+        "origin": {
+          "type": "station",
+          "id": "251",
+          "name": "Dresden central station",
+          "importance": null
+        },
+        "destination": {
+          "type": "station",
+          "id": "4468",
+          "name": "Görlitz",
+          "importance": 0
+        },
+        "departure": "2019-12-04T18:40:00+01:00",
+        "arrival": "2019-12-04T20:15:00+01:00",
+        "hint": null,
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 14.98,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=471&arrivalStation=4468&rideDate=04.12.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  },
+  {
+    "type": "journey",
+    "id": "interconnection-0-1-4468-93026291-251-94543051",
+    "legs": [
+      {
+        "origin": {
+          "type": "station",
+          "id": "1",
+          "name": "Berlin central bus station",
+          "importance": 100
+        },
+        "destination": {
+          "type": "station",
+          "id": "251",
+          "name": "Dresden central station",
+          "importance": null
+        },
+        "departure": "2019-12-04T23:59:00+01:00",
+        "arrival": "2019-12-05T02:55:00+01:00",
+        "hint": null,
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      },
+      {
+        "origin": {
+          "type": "station",
+          "id": "251",
+          "name": "Dresden central station",
+          "importance": null
+        },
+        "destination": {
+          "type": "station",
+          "id": "4468",
+          "name": "Görlitz",
+          "importance": 0
+        },
+        "departure": "2019-12-05T04:20:00+01:00",
+        "arrival": "2019-12-05T05:55:00+01:00",
+        "hint": null,
+        "operator": {
+          "type": "operator",
+          "id": "mfb",
+          "name": "FlixBus DACH GmbH",
+          "url": "http://flixbus.de",
+          "address": "Karl-Liebknecht-Straße 33, D-10178 Berlin"
+        },
+        "mode": "bus",
+        "public": true
+      }
+    ],
+    "status": "available",
+    "borders": false,
+    "info": {
+      "title": null,
+      "hint": null,
+      "message": null,
+      "warnings": []
+    },
+    "price": {
+      "amount": 18.98,
+      "currency": "EUR",
+      "discounts": null,
+      "saleRestriction": false,
+      "available": true,
+      "url": "https://shop.global.flixbus.com/s?departureCity=88&arrivalCity=3408&departureStation=1&arrivalStation=4468&rideDate=04.12.2019&currency=EUR&adult=1&children=0&bike_slot=0"
+    }
+  }
+]
