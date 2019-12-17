@@ -2,7 +2,7 @@ import {
   cleanJourneysThereAndBack,
   CleanThereAndBack
 } from "./clean/";
-import { getAvailableJourneysThereAndBack } from "./filter/";
+import { getAvailableJourneysThereAndBack } from "./concatenateJourneys";
 import { getAllJourneysThereAndBack } from "./getJourneys";
 import { Journey, Station } from "flix";
 

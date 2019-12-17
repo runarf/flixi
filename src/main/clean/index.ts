@@ -1,5 +1,5 @@
 import { ThereAndBack } from "..";
-import { Journey, Leg, Station } from "flix";
+import { Journey, Station } from "flix";
 
 export interface CleanJourney {
   departure: String;
@@ -17,6 +17,8 @@ const cleanJourneys = (journeys: Journey[]) => {
 
     const departureLeg = legs[0];
     const arrivalLeg = legs[legs.length - 1];
+
+    //const departureOriginIsBerlin =
 
     const origin: Station[] = Array.isArray(
       departureLeg.origin

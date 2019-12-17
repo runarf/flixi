@@ -1,7 +1,7 @@
 declare module "flix" {
   export interface Station {
     type?: string;
-    id: string;
+    id?: string;
     name?: string;
     importance?: number;
   }
