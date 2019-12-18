@@ -3,7 +3,7 @@ import {
   Journey,
   journeys as flixJourneys
 } from "flix";
-import * as dates from "../dates";
+import * as dates from "./CalculateDays";
 import { Moment } from "moment-timezone";
 
 const berlinRegion: Station = { type: "region", id: "88" };

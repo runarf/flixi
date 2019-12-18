@@ -1,9 +1,9 @@
 import {
   cleanJourneysThereAndBack,
   CleanThereAndBack
-} from "./clean/";
-import { getAvailableJourneysThereAndBack } from "./concatenateJourneys";
-import { getAllJourneysThereAndBack } from "./getJourneys";
+} from "./CleanJourneys";
+import { getAvailableJourneysThereAndBack } from "./ConcatenateJourneys";
+import { getAllJourneysThereAndBack } from "./RefreshJourneys";
 import { Journey, Station } from "flix";
 
 export interface ThereAndBack {
