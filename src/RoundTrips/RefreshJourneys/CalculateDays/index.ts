@@ -1,4 +1,4 @@
-const moment = require("moment-timezone");
+import * as moment from "moment-timezone";
 
 const getDatesIn = (now, day, inWeeksFromNow) => {
   const lengthOfArray = inWeeksFromNow * 7;
@@ -21,7 +21,7 @@ const getDatesIn = (now, day, inWeeksFromNow) => {
   return days;
 };
 
-const getEveryFridaysFromNowTo = weeks => {
+export const getEveryFridaysFromNowTo = (weeks) => {
   const fridays = getDatesIn(
     moment.tz("Europe/Berlin"),
     5,
@@ -31,12 +31,6 @@ const getEveryFridaysFromNowTo = weeks => {
   return fridays;
 };
 
-const getEverySundaysFromNowTo = weeks => {
+export const getEverySundaysFromNowTo = (weeks) => {
   return getDatesIn(moment.tz("Europe/Berlin"), 7, weeks);
-};
-
-module.exports = {
-  getDatesIn,
-  getEveryFridaysFromNowTo,
-  getEverySundaysFromNowTo
 };

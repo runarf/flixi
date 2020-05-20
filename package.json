@@ -9,7 +9,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "mull": "ts-node src/mull.ts",
-    "dev": "nodemon src/index.js",
+    "dev": "nodemon src/index.ts",
     "debug": "node --inspect-brk src/index.js",
     "test": "jest",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --watch --runInBand ."
