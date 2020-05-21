@@ -2,7 +2,7 @@ import * as express from "express";
 import * as cors from "cors";
 import { getCheapestRoundTripPrice } from "./RoundTrips";
 import { Station } from "flix";
-import { ThereAndBackTrips } from "./RoundTrips/ConvertJourneysToTrips";
+import { ThereAndBackTrips } from "./RoundTrips/Trip";
 
 const app = express();
 

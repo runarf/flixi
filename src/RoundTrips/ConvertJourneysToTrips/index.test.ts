@@ -1,4 +1,5 @@
-import { Trip, convertJourneyToTrip } from "./index";
+import { convertJourneyToTrip } from "./index";
+import { Trip } from "../../TripInterfaces";
 import { Journey } from "flix";
 
 const firstLeg = {

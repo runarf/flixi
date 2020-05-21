@@ -1,15 +1,9 @@
 import { ThereAndBackJourneys } from "..";
 import { Journey, Station } from "flix";
-
-export interface Trip {
-  departure: String;
-  arrival: String;
-  origin: Station[];
-  destination: Station[];
-  price: number;
-  url: string;
-  isDirect: boolean;
-}
+import {
+  Trip,
+  ThereAndBackTrips,
+} from "../../TripInterfaces";
 
 export const convertJourneyToTrip = (
   journey: Journey
@@ -63,11 +57,6 @@ export const convertJourneysToTrips = (
     return convertJourneyToTrip(journey);
   });
 };
-
-export interface ThereAndBackTrips {
-  there: Trip[];
-  back: Trip[];
-}
 
 export const convertJourneysToTripsThereAndBack = (
   journeysThereAndBack: ThereAndBackJourneys
