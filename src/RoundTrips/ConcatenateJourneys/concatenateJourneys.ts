@@ -1,4 +1,4 @@
-import { Journey, Station } from "flix";
+import { Journey, Station, Leg } from "flix";
 
 export const concatenateSimilarJourneys = (
   journeys: Journey[],
@@ -57,7 +57,7 @@ const getConcatenatedJourneys = (
 ) => {
   const concatenatedJourneys = sameJourneysWithDifferentStops.map(
     (sameJourneyFromDifferentStations) => {
-      const concatenatedJourneyInformation: ConcatenatedJourneyInformation = getConcatenatedJourneyInformation(
+      const journeyStationsAndCheapestPrice: JourneyStationsAndCheapestPrice = getConcatenatedJourneyInformation(
         sameJourneyFromDifferentStations,
         isGoingThere
       );
@@ -66,11 +66,11 @@ const getConcatenatedJourneys = (
         ...sameJourneyFromDifferentStations[0],
       };
 
-      const stations = concatenatedJourneyInformation.stations.sort(
+      const stations = journeyStationsAndCheapestPrice.stations.sort(
         (a, b) => a.name.localeCompare(b.name)
       );
 
-      const journeyLegs = baseJourney.legs;
+      const journeyLegs: Leg[] = baseJourney.legs;
 
       if (isGoingThere) {
         journeyLegs[0].origin = stations;
@@ -80,8 +80,9 @@ const getConcatenatedJourneys = (
         ].destination = stations;
       }
 
+      baseJourney.legs = journeyLegs;
       baseJourney.price.amount =
-        concatenatedJourneyInformation.cheapestPrice;
+        journeyStationsAndCheapestPrice.cheapestPrice;
 
       return baseJourney;
     }
@@ -89,7 +90,7 @@ const getConcatenatedJourneys = (
   return concatenatedJourneys;
 };
 
-interface ConcatenatedJourneyInformation {
+interface JourneyStationsAndCheapestPrice {
   stations: Station[];
   cheapestPrice: number;
 }
@@ -98,33 +99,33 @@ const getConcatenatedJourneyInformation = (
   sameJourneysFromDifferentStations: Journey[],
   isGoingThere: boolean
 ) => {
-  const concatenatedJourneyInformation = sameJourneysFromDifferentStations.reduce<
-    ConcatenatedJourneyInformation
+  const concatenatedJourneyStationsAndCheapestPrice = sameJourneysFromDifferentStations.reduce<
+    JourneyStationsAndCheapestPrice
   >(
-    (concatenatedJourney, currentJourney) => {
-      const journeyLegs = currentJourney.legs;
-      const currentJourneyStation: Station = (isGoingThere
-        ? journeyLegs[0].origin
-        : journeyLegs[journeyLegs.length - 1]
-            .destination) as Station;
+    (concatenatedJourneyInformation, currentJourney) => {
+      const { legs } = currentJourney;
 
-      const stationIsAlreadyInListOfStations = concatenatedJourney.stations.some(
+      const currentJourneyStation: Station = (isGoingThere
+        ? legs[0].origin
+        : legs[legs.length - 1].destination) as Station;
+
+      const stationIsAlreadyInListOfStations = concatenatedJourneyInformation.stations.some(
         (station) =>
           station.name === currentJourneyStation.name &&
           station.id === currentJourneyStation.id
       );
 
       const stationsForJourney = stationIsAlreadyInListOfStations
-        ? [...concatenatedJourney.stations]
+        ? [...concatenatedJourneyInformation.stations]
         : [
-            ...concatenatedJourney.stations,
+            ...concatenatedJourneyInformation.stations,
             currentJourneyStation,
           ];
 
       const journeyPrice = currentJourney.price.amount;
 
       const currentCheapestPrice =
-        concatenatedJourney.cheapestPrice;
+        concatenatedJourneyInformation.cheapestPrice;
 
       const currentJourneyIsTheCheapestSoFar =
         currentCheapestPrice === 0 ||
@@ -142,7 +143,7 @@ const getConcatenatedJourneyInformation = (
     { stations: [], cheapestPrice: 0 }
   );
 
-  return concatenatedJourneyInformation;
+  return concatenatedJourneyStationsAndCheapestPrice;
 };
 
 interface SameJourneysWithDifferentStopsById {
