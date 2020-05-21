@@ -1,4 +1,5 @@
 import { Journey, Station } from "flix";
+
 export const getJourneyStationsAndCheapestPrice = (
   sameJourneysFromDifferentStations: Journey[],
   isGoingThere: boolean

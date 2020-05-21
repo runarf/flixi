@@ -1,7 +1,9 @@
 import { Journey } from "flix";
+
 interface SameJourneysWithDifferentStopsById {
   [key: string]: Journey[];
 }
+
 export const getSameJourneysWithDifferentStops = (
   journeys: Journey[]
 ) => {

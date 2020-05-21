@@ -2,15 +2,22 @@ import { Journey, Leg, Station } from "flix";
 import { ThereAndBackJourneys } from "..";
 import { concatenateSimilarJourneys } from "./concatenateJourneys";
 
-const removeJourneysUnavailableAndTooManyStopOvers = (
-  journey: Journey,
-  maxLegs: number
-) => {
-  return (
-    journey.status !== "full" &&
-    journey.price.available &&
-    journey.legs.length <= maxLegs
+export const concatenateJourneys = (
+  allJourneysThereAndBack: ThereAndBackJourneys
+): ThereAndBackJourneys => {
+  const there = concatenateJourneysOneWay(
+    allJourneysThereAndBack.there,
+    true
   );
+  const back = concatenateJourneysOneWay(
+    allJourneysThereAndBack.back,
+    false
+  );
+
+  return {
+    there,
+    back,
+  };
 };
 
 const concatenateJourneysOneWay = (
@@ -37,20 +44,13 @@ const concatenateJourneysOneWay = (
   return concatenatedJourneys;
 };
 
-export const concatenateJourneys = (
-  allJourneysThereAndBack: ThereAndBackJourneys
-): ThereAndBackJourneys => {
-  const there = concatenateJourneysOneWay(
-    allJourneysThereAndBack.there,
-    true
+const removeJourneysUnavailableAndTooManyStopOvers = (
+  journey: Journey,
+  maxLegs: number
+) => {
+  return (
+    journey.status !== "full" &&
+    journey.price.available &&
+    journey.legs.length <= maxLegs
   );
-  const back = concatenateJourneysOneWay(
-    allJourneysThereAndBack.back,
-    false
-  );
-
-  return {
-    there,
-    back,
-  };
 };
