@@ -7,7 +7,7 @@ import { Moment } from "moment-timezone";
 import {
   getEverySundaysFromNowTo,
   getEveryFridaysFromNowTo,
-} from "./CalculateDays";
+} from "./getEveryDayFromNowTo";
 
 const berlinRegion: Station = { type: "region", id: "88" };
 
