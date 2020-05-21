@@ -4,7 +4,7 @@ const fs = require("fs");
 const getStationsFromApi = () => {
   const stationStream = flix.stations.all();
   let stations = [];
-  stationStream.on("data", station => {
+  stationStream.on("data", (station) => {
     stations.push(station);
   });
 
@@ -12,7 +12,7 @@ const getStationsFromApi = () => {
     fs.writeFile(
       "./allStations.json",
       JSON.stringify(stations, null, 2),
-      err => {
+      (err) => {
         if (err) {
           console.log("error writing to file");
         } else {
@@ -24,10 +24,10 @@ const getStationsFromApi = () => {
 };
 
 const getStationsCloseToBerlin = () => {
-  const allStations = require("./allStations.json.js");
+  const allStations = require("./allStations.json.js.js");
 
   const stationsCloseToBerlin = allStations.filter(
-    station => {
+    (station) => {
       const countryCode = station.location.country.code;
       return !["US", "ES"].includes(countryCode);
     }
@@ -36,7 +36,7 @@ const getStationsCloseToBerlin = () => {
   fs.writeFile(
     "./stationsCloseToBerlin.json",
     JSON.stringify(stationsCloseToBerlin, null, 2),
-    err => {
+    (err) => {
       if (err) {
         console.log("error writing to file");
       } else {
@@ -47,20 +47,20 @@ const getStationsCloseToBerlin = () => {
 };
 
 const getStationsInBerlin = () => {
-  const allStations = require("./allStations.json.js");
+  const allStations = require("./allStations.json.js.js");
 
-  const stationsInBerlin = allStations.filter(station => {
+  const stationsInBerlin = allStations.filter((station) => {
     return station.regions.includes("88");
   });
 
   writeJsonToFile(stationsInBerlin, "stationsInBerlin");
 };
 
-const stationsInBerlinWithConnectionTo = destination => {
-  const stationsInBerlin = require("./stationsInBerlin.json.js");
+const stationsInBerlinWithConnectionTo = (destination) => {
+  const stationsInBerlin = require("./stationsInBerlin.json.js.js");
 
   const stationsWithConnection = stationsInBerlin.filter(
-    station => {
+    (station) => {
       return station.connections.includes(destination);
     }
   );
@@ -71,9 +71,9 @@ const stationsInBerlinWithConnectionTo = destination => {
 const stationsInBerlinWithConnectionToGorlitz = () => {
   const withConnection = stationsInBerlinWithConnectionTo(
     4468
-  ).map(station => ({
+  ).map((station) => ({
     id: station.id,
-    name: station.name
+    name: station.name,
   }));
   writeJsonToFile(withConnection, "connectedWithGorlitz");
 };

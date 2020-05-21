@@ -3,7 +3,7 @@ import {
   Station,
   regions as flixRegions,
 } from "flix";
-import { writeJsonToFile } from "../misc/helper";
+import { writeJsonToFile } from "./misc/helper";
 const berlinRegion: Station = { type: "region", id: "88" };
 const gorlitzRegion: Station = {
   type: "region",
