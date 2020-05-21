@@ -11,7 +11,7 @@ export interface Trip {
   isDirect: boolean;
 }
 
-const convertJourneysToTrips = (
+export const convertJourneysToTrips = (
   journeys: Journey[]
 ): Trip[] => {
   return journeys.map((journey) => {
@@ -44,7 +44,7 @@ const convertJourneysToTrips = (
           },
         ];
 
-    const cleanedJourney: Trip = {
+    const trip: Trip = {
       departure: departureLeg.departure,
       arrival: arrivalLeg.arrival,
       origin,
@@ -54,7 +54,7 @@ const convertJourneysToTrips = (
       isDirect: legs.length === 1,
     };
 
-    return cleanedJourney;
+    return trip;
   });
 };
 

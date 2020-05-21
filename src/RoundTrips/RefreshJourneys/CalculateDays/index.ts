@@ -1,6 +1,6 @@
 import * as moment from "moment-timezone";
 
-const getDatesIn = (now, day, inWeeksFromNow) => {
+export const getDatesIn = (now, day, inWeeksFromNow) => {
   const lengthOfArray = inWeeksFromNow * 7;
   const days = [...Array(lengthOfArray).keys()].reduce(
     (dates, dayIndex) => {
