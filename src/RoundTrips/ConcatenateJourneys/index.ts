@@ -1,5 +1,5 @@
 import { Journey, Leg, Station } from "flix";
-import { ThereAndBack } from "..";
+import { ThereAndBackJourneys } from "..";
 import { concatenateSimilarJourneys } from "./concatenateJourneys";
 
 const removeJourneysUnavailableAndTooManyStopOvers = (
@@ -19,7 +19,7 @@ const getUniqueAvailableJourneys = (
   maxLegs = 2
 ): Journey[] => {
   const availableJourneys = allJourneys
-    .filter(journey =>
+    .filter((journey) =>
       removeJourneysUnavailableAndTooManyStopOvers(
         journey,
         maxLegs
@@ -37,7 +37,9 @@ const getUniqueAvailableJourneys = (
   return concatenatedJourneys;
 };
 
-const getAvailableJourneysThereAndBack = async allJourneysThereAndBack => {
+const getAvailableJourneysThereAndBack = async (
+  allJourneysThereAndBack
+) => {
   const there = getUniqueAvailableJourneys(
     allJourneysThereAndBack.there,
     true
@@ -47,9 +49,9 @@ const getAvailableJourneysThereAndBack = async allJourneysThereAndBack => {
     false
   );
 
-  const uniqueJourneysThereAndBack: ThereAndBack = {
+  const uniqueJourneysThereAndBack: ThereAndBackJourneys = {
     there,
-    back
+    back,
   };
 
   return uniqueJourneysThereAndBack;

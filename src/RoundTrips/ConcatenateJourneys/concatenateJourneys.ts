@@ -15,7 +15,7 @@ const concatenateSimilarJourneys = (
 };
 
 const getJourneysById = (journeys: Journey[]) => {
-  const journeysById = journeys.reduce(
+  const journeysById = journeys.reduce<JourneysById>(
     (journeysById, journey) => {
       const journeyIdParts = journey.id.split("-");
 
@@ -32,7 +32,7 @@ const getJourneysById = (journeys: Journey[]) => {
 
       return {
         ...journeysById,
-        [journeyId]: directJourney
+        [journeyId]: directJourney,
       };
     },
     {}
@@ -45,19 +45,19 @@ const getConcatenatedJourneys = (
   journeysById: JourneysById,
   isGoingThere: boolean
 ) => {
-  const similarJourneys = Object.entries(journeysById).map(
-    ([id, journeys]) => journeys
-  );
+  const similarJourneys: Journey[][] = Object.entries(
+    journeysById
+  ).map(([id, journeys]) => journeys);
 
   const concatenatedJourneys = similarJourneys.map(
-    sameJourneysFromDifferentStations => {
-      const concatenatedJourneyInformation = getConcatenatedJourneyInformation(
+    (sameJourneysFromDifferentStations) => {
+      const concatenatedJourneyInformation: ConcatenatedJourneyInformation = getConcatenatedJourneyInformation(
         sameJourneysFromDifferentStations,
         isGoingThere
       );
 
       const baseJourney: Journey = {
-        ...sameJourneysFromDifferentStations[0]
+        ...sameJourneysFromDifferentStations[0],
       };
 
       const stations = concatenatedJourneyInformation.stations.sort(
@@ -83,14 +83,18 @@ const getConcatenatedJourneys = (
   return concatenatedJourneys;
 };
 
+interface ConcatenatedJourneyInformation {
+  stations: Station[];
+  cheapestPrice: number;
+}
+
 const getConcatenatedJourneyInformation = (
   sameJourneysFromDifferentStations: Journey[],
   isGoingThere: boolean
 ) => {
-  const concatenatedJourneyInformation = sameJourneysFromDifferentStations.reduce<{
-    stations: Station[];
-    cheapestPrice: number;
-  }>(
+  const concatenatedJourneyInformation = sameJourneysFromDifferentStations.reduce<
+    ConcatenatedJourneyInformation
+  >(
     (concatenatedJourney, currentJourney) => {
       const journeyLegs = currentJourney.legs;
       const currentJourneyStation: Station = (isGoingThere
@@ -99,7 +103,7 @@ const getConcatenatedJourneyInformation = (
             .destination) as Station;
 
       const stationIsAlreadyInListOfStations = concatenatedJourney.stations.some(
-        station =>
+        (station) =>
           station.name === currentJourneyStation.name &&
           station.id === currentJourneyStation.id
       );
@@ -108,7 +112,7 @@ const getConcatenatedJourneyInformation = (
         ? [...concatenatedJourney.stations]
         : [
             ...concatenatedJourney.stations,
-            currentJourneyStation
+            currentJourneyStation,
           ];
 
       const journeyPrice = currentJourney.price.amount;
@@ -126,7 +130,7 @@ const getConcatenatedJourneyInformation = (
 
       return {
         stations: stationsForJourney,
-        cheapestPrice
+        cheapestPrice,
       };
     },
     { stations: [], cheapestPrice: 0 }

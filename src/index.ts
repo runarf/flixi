@@ -2,6 +2,7 @@ import * as express from "express";
 import * as cors from "cors";
 import { getCheapestRoundTripPrice } from "./RoundTrips";
 import { Station } from "flix";
+import { ThereAndBackTrips } from "./RoundTrips/ConvertJourneysToTrips";
 
 const app = express();
 
@@ -14,7 +15,7 @@ console.log(`origin allowed is ${originUrl}`);
 
 app.use(
   cors({
-    origin: originUrl
+    origin: originUrl,
   })
 );
 
@@ -23,10 +24,10 @@ app.get("/:regionId", async (req, res) => {
     console.log(`Getting round trips`);
     const region: Station = {
       type: "region",
-      id: req.params.regionId
+      id: req.params.regionId,
     };
-    
-    const cheapestRoundTrips = await getCheapestRoundTripPrice(
+
+    const cheapestRoundTrips: ThereAndBackTrips = await getCheapestRoundTripPrice(
       2,
       region
     );

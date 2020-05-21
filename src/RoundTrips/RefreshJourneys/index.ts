@@ -59,4 +59,5 @@ const getJourneys = async (
   const journeys = await Promise.all(journeysPromises);
   return journeys.flat();
 };
+
 export { getAllJourneysThereAndBack };

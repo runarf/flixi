@@ -1,7 +1,7 @@
-import { ThereAndBack } from "..";
+import { ThereAndBackJourneys } from "..";
 import { Journey, Station } from "flix";
 
-export interface CleanJourney {
+export interface Trip {
   departure: String;
   arrival: String;
   origin: Station[];
@@ -11,8 +11,10 @@ export interface CleanJourney {
   isDirect: boolean;
 }
 
-const cleanJourneys = (journeys: Journey[]) => {
-  return journeys.map(journey => {
+const convertJourneysToTrips = (
+  journeys: Journey[]
+): Trip[] => {
+  return journeys.map((journey) => {
     const legs = journey.legs;
 
     const departureLeg = legs[0];
@@ -27,8 +29,8 @@ const cleanJourneys = (journeys: Journey[]) => {
       : [
           {
             id: departureLeg.origin.id,
-            name: departureLeg.origin.name
-          }
+            name: departureLeg.origin.name,
+          },
         ];
 
     const destination: Station[] = Array.isArray(
@@ -38,36 +40,36 @@ const cleanJourneys = (journeys: Journey[]) => {
       : [
           {
             id: arrivalLeg.destination.id,
-            name: arrivalLeg.destination.name
-          }
+            name: arrivalLeg.destination.name,
+          },
         ];
 
-    const cleanedJourney: CleanJourney = {
+    const cleanedJourney: Trip = {
       departure: departureLeg.departure,
       arrival: arrivalLeg.arrival,
       origin,
       destination,
       price: journey.price.amount,
       url: journey.price.url,
-      isDirect: legs.length === 1
+      isDirect: legs.length === 1,
     };
 
     return cleanedJourney;
   });
 };
 
-export interface CleanThereAndBack {
-  there: CleanJourney[];
-  back: CleanJourney[];
+export interface ThereAndBackTrips {
+  there: Trip[];
+  back: Trip[];
 }
 
-const cleanJourneysThereAndBack = (
-  journeysThereAndBack: ThereAndBack
-): CleanThereAndBack => {
+export const convertJourneysToTripsThereAndBack = (
+  journeysThereAndBack: ThereAndBackJourneys
+): ThereAndBackTrips => {
   return {
-    there: cleanJourneys(journeysThereAndBack.there),
-    back: cleanJourneys(journeysThereAndBack.back)
+    there: convertJourneysToTrips(
+      journeysThereAndBack.there
+    ),
+    back: convertJourneysToTrips(journeysThereAndBack.back),
   };
 };
-
-export { cleanJourneys, cleanJourneysThereAndBack };
