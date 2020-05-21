@@ -1,4 +1,4 @@
-import * as dates from ".";
+import { getDatesIn } from ".";
 import * as moment from "moment-timezone";
 
 const MONDAY = moment("Mon-22-07-2019", "ddd-DD-MM-YYYY");
@@ -12,7 +12,7 @@ const correctFridays = [
   FRIDAY.clone().add(7 * 3, "days"),
 ];
 
-const fridays = dates.getDatesIn(MONDAY.clone(), 5, 4);
+const fridays = getDatesIn(MONDAY.clone(), 5, 4);
 
 test("get correct fridays", () => {
   expect(fridays).toEqual(correctFridays);
@@ -27,7 +27,7 @@ const correctSundays = [
   SUNDAY.clone().add(7 * 3, "days"),
 ];
 
-const sundays = dates.getDatesIn(FRIDAY.clone(), 7, 4);
+const sundays = getDatesIn(FRIDAY.clone(), 7, 4);
 
 test("get correct sundays", () => {
   expect(sundays).toEqual(correctSundays);

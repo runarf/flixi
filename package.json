@@ -12,6 +12,7 @@
     "dev": "nodemon src/index.ts",
     "debug": "node --inspect-brk src/index.js",
     "test": "jest",
+    "test:watch": "jest --watch",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --watch --runInBand ."
   },
   "author": "",
