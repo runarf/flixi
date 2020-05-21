@@ -1,63 +1,69 @@
 import { Journey, Station } from "flix";
 
-const concatenateSimilarJourneys = (
+export const concatenateSimilarJourneys = (
   journeys: Journey[],
   isGoingThere: boolean
 ): Journey[] => {
-  const journeysById = getJourneysById(journeys);
+  const sameJourneysWithDifferentStopsById = getSameJourneysWithDifferentStops(
+    journeys
+  );
 
   const concatenatedJourneys = getConcatenatedJourneys(
-    journeysById,
+    sameJourneysWithDifferentStopsById,
     isGoingThere
   );
 
   return concatenatedJourneys;
 };
 
-const getJourneysById = (journeys: Journey[]) => {
-  const journeysById = journeys.reduce<JourneysById>(
-    (journeysById, journey) => {
-      const journeyIdParts = journey.id.split("-");
+const getSameJourneysWithDifferentStops = (
+  journeys: Journey[]
+) => {
+  const sameJourneysWithDifferentStopsById = journeys.reduce<
+    SameJourneysWithDifferentStopsById
+  >((sameJourneysWithDifferentStopsById, journey) => {
+    const journeyIdParts = journey.id.split("-");
+    const journeyId = journeyIdParts[1];
 
-      let directJourney;
+    let sameJourneys: Journey[];
 
-      const journeyId = journeyIdParts[1];
+    if (journeyId in sameJourneysWithDifferentStopsById) {
+      const previousJourneys =
+        sameJourneysWithDifferentStopsById[journeyId];
+      sameJourneys = [...previousJourneys, journey];
+    } else {
+      sameJourneys = [journey];
+    }
 
-      if (journeyId in journeysById) {
-        const previousJourneys = journeysById[journeyId];
-        directJourney = [...previousJourneys, journey];
-      } else {
-        directJourney = [journey];
-      }
+    return {
+      ...sameJourneysWithDifferentStopsById,
+      [journeyId]: sameJourneys,
+    };
+  }, {});
 
-      return {
-        ...journeysById,
-        [journeyId]: directJourney,
-      };
-    },
-    {}
+  const allSameJourneysWithDifferentStops: Journey[][] = Object.entries(
+    sameJourneysWithDifferentStopsById
+  ).map(
+    ([_journeyId, sameJourneysWithDifferentStops]) =>
+      sameJourneysWithDifferentStops
   );
 
-  return journeysById;
+  return allSameJourneysWithDifferentStops;
 };
 
 const getConcatenatedJourneys = (
-  journeysById: JourneysById,
+  sameJourneysWithDifferentStops: Journey[][],
   isGoingThere: boolean
 ) => {
-  const similarJourneys: Journey[][] = Object.entries(
-    journeysById
-  ).map(([id, journeys]) => journeys);
-
-  const concatenatedJourneys = similarJourneys.map(
-    (sameJourneysFromDifferentStations) => {
+  const concatenatedJourneys = sameJourneysWithDifferentStops.map(
+    (sameJourneyFromDifferentStations) => {
       const concatenatedJourneyInformation: ConcatenatedJourneyInformation = getConcatenatedJourneyInformation(
-        sameJourneysFromDifferentStations,
+        sameJourneyFromDifferentStations,
         isGoingThere
       );
 
       const baseJourney: Journey = {
-        ...sameJourneysFromDifferentStations[0],
+        ...sameJourneyFromDifferentStations[0],
       };
 
       const stations = concatenatedJourneyInformation.stations.sort(
@@ -139,8 +145,6 @@ const getConcatenatedJourneyInformation = (
   return concatenatedJourneyInformation;
 };
 
-interface JourneysById {
+interface SameJourneysWithDifferentStopsById {
   [key: string]: Journey[];
 }
-
-export { concatenateSimilarJourneys };

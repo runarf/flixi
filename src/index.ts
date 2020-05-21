@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as cors from "cors";
-import { getCheapestRoundTripPrice } from "./RoundTrips";
+import { getThereAndBackTrips } from "./RoundTrips";
 import { Station } from "flix";
 import { ThereAndBackTrips } from "./TripInterfaces";
 
@@ -27,15 +27,15 @@ app.get("/:regionId", async (req, res) => {
       id: req.params.regionId,
     };
 
-    const cheapestRoundTrips: ThereAndBackTrips = await getCheapestRoundTripPrice(
+    const thereAndBackTrips: ThereAndBackTrips = await getThereAndBackTrips(
       2,
       region
     );
     console.log(
-      `Sending ${cheapestRoundTrips.there.length} trips there, and ${cheapestRoundTrips.back.length} trips back`
+      `Sending ${thereAndBackTrips.there.length} trips there, and ${thereAndBackTrips.back.length} trips back`
     );
 
-    return res.json(cheapestRoundTrips);
+    return res.json(thereAndBackTrips);
   } catch (err) {
     console.log(err);
   }

@@ -13,7 +13,7 @@ const removeJourneysUnavailableAndTooManyStopOvers = (
   );
 };
 
-const getUniqueAvailableJourneys = (
+const concatenateJourneysOneWay = (
   allJourneys: Journey[],
   isGoingThere: boolean,
   maxLegs = 2
@@ -37,24 +37,20 @@ const getUniqueAvailableJourneys = (
   return concatenatedJourneys;
 };
 
-const getAvailableJourneysThereAndBack = async (
-  allJourneysThereAndBack
-) => {
-  const there = getUniqueAvailableJourneys(
+export const concatenateJourneys = (
+  allJourneysThereAndBack: ThereAndBackJourneys
+): ThereAndBackJourneys => {
+  const there = concatenateJourneysOneWay(
     allJourneysThereAndBack.there,
     true
   );
-  const back = getUniqueAvailableJourneys(
+  const back = concatenateJourneysOneWay(
     allJourneysThereAndBack.back,
     false
   );
 
-  const uniqueJourneysThereAndBack: ThereAndBackJourneys = {
+  return {
     there,
     back,
   };
-
-  return uniqueJourneysThereAndBack;
 };
-
-export { getAvailableJourneysThereAndBack };

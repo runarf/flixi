@@ -1,6 +1,6 @@
 import { convertJourneysToTripsThereAndBack } from "./ConvertJourneysToTrips";
 import { ThereAndBackTrips } from "../TripInterfaces";
-import { getAvailableJourneysThereAndBack } from "./ConcatenateJourneys";
+import { concatenateJourneys } from "./ConcatenateJourneys";
 import { getAllJourneysThereAndBack } from "./RefreshJourneys";
 import { Journey, Station } from "flix";
 
@@ -9,7 +9,7 @@ export interface ThereAndBackJourneys {
   back: Journey[];
 }
 
-const getCheapestRoundTripPrice = async (
+const getThereAndBackTrips = async (
   weekendsAhead: number,
   region: Station
 ): Promise<ThereAndBackTrips> => {
@@ -18,15 +18,15 @@ const getCheapestRoundTripPrice = async (
     weekendsAhead
   );
 
-  const availableJourneysThereAndBack: ThereAndBackJourneys = await getAvailableJourneysThereAndBack(
+  const concatenatedJourneys: ThereAndBackJourneys = concatenateJourneys(
     allJourneysThereAndBack
   );
 
-  const cleanedJourneys: ThereAndBackTrips = convertJourneysToTripsThereAndBack(
-    availableJourneysThereAndBack
+  const thereAndBackTrips: ThereAndBackTrips = convertJourneysToTripsThereAndBack(
+    concatenatedJourneys
   );
 
-  return cleanedJourneys;
+  return thereAndBackTrips;
 };
 
-export { getCheapestRoundTripPrice };
+export { getThereAndBackTrips };
