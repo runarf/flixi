@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as cors from "cors";
-import { getThereAndBackTrips } from "./RoundTrips";
+import { getThereAndBackTrips } from "./getThereAndBackTrips";
 import { Station } from "flix";
 import { ThereAndBackTrips } from "./TripInterfaces";
 
