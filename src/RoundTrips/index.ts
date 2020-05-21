@@ -1,7 +1,7 @@
-import { convertJourneysToTripsThereAndBack } from "./ConvertJourneysToTrips";
+import { convertJourneysToTripsThereAndBack } from "./convertJourneyToTrip";
 import { ThereAndBackTrips } from "../TripInterfaces";
-import { concatenateJourneys } from "./ConcatenateJourneys";
-import { getAllJourneysThereAndBack } from "./RefreshJourneys";
+import { concatenateJourneys } from "./concatenateJourneys";
+import { getAllJourneysThereAndBack } from "./getAllJourneysThereAndBack";
 import { Journey, Station } from "flix";
 
 export interface ThereAndBackJourneys {

@@ -11,7 +11,7 @@ import {
 
 const berlinRegion: Station = { type: "region", id: "88" };
 
-const getAllJourneysThereAndBack = async (
+export const getAllJourneysThereAndBack = async (
   region: Station,
   weekends: number
 ) => {
@@ -59,5 +59,3 @@ const getJourneys = async (
   const journeys = await Promise.all(journeysPromises);
   return journeys.flat();
 };
-
-export { getAllJourneysThereAndBack };
