@@ -7,9 +7,9 @@ cache:
 script:
   - yarn build
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: build
+  provider: heroku
+  api_key:
+    secure: <your-api-key>
+  app: cd-showcase
   on:
     branch: master
