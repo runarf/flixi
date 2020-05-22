@@ -1,35 +1,35 @@
-import * as flix from "flix";
-import * as helper from "../helper";
+import { Station, regions } from "flix";
+import { writeJsonToFile } from "../helper";
 
-const berlinRegion: flix.Station = {
+const berlinRegion = {
   type: "Region",
-  code: "88"
+  code: "88",
 };
 
 const fetchRegions = () => {
-  const regionStream = flix.regions.all();
-  const regions = [];
-  regionStream.on("data", region => {
-    regions.push(region);
+  const regionStream = regions.all();
+  const regionz = [];
+  regionStream.on("data", (region) => {
+    regionz.push(region);
   });
 
   regionStream.on("end", () => {
-    helper.writeJsonToFile(regions, "allRegions");
+    writeJsonToFile(regionz, "allRegions");
   });
 };
 
-const getRegionsIn = countryCodes => {
+const getRegionsIn = (countryCodes) => {
   const allRegions = require("../jsons/allRegions.json");
 
-  const regions = allRegions.filter(region => {
+  const regions = allRegions.filter((region) => {
     const countryCode = region.location.country.code;
     return countryCodes.includes(countryCode);
   });
 
-  helper.writeJsonToFile(regions, "regionsCloseToBerlin");
+  writeJsonToFile(regions, "regionsCloseToBerlin");
 };
 
-const getCountriesWhereFlixDrives = regions => {
+const getCountriesWhereFlixDrives = (regions) => {
   return regions
     .reduce((countries, region) => {
       if (
@@ -41,24 +41,24 @@ const getCountriesWhereFlixDrives = regions => {
       } else {
         return [
           ...countries,
-          `${region.countryCode} ${region.country}`
+          `${region.countryCode} ${region.country}`,
         ];
       }
     }, [])
     .sort((a, b) => a.country.localeCompare(b.country));
 };
 
-const cleanRegions = regions => {
+const cleanRegions = (regions) => {
   const cleanRegions = regions
-    .map(region => {
+    .map((region) => {
       const cleanRegion = {
         id: region.id,
         name: region.name,
         location: {
           longitude: region.location.longitude,
           latitude: region.location.latitude,
-          country: region.location.country
-        }
+          country: region.location.country,
+        },
       };
       return cleanRegion;
     })
@@ -71,10 +71,10 @@ const cleanRegions = regions => {
   //helper.writeJsonToFile(cleanRegions, "regionsCloseToBerlin")
 };
 
-const getRegionsCloseToBerlinWithDirect = regions => {
+const getRegionsCloseToBerlinWithDirect = (regions) => {
   const berlinLocation = {
     longitude: 13.404616,
-    latitude: 52.486081
+    latitude: 52.486081,
   };
 
   const kmInLongitudeDegree =
@@ -90,12 +90,12 @@ const getRegionsCloseToBerlinWithDirect = regions => {
   const maxLong = berlinLocation.longitude + deltaLong;
 
   const regionsCloseToBerlinWithDirect = regions
-    .filter(region => {
+    .filter((region) => {
       return region.connections.includes(
         Number(berlinRegion.code)
       );
     })
-    .filter(region => {
+    .filter((region) => {
       const { longitude, latitude } = region.location;
       const regionIsInsideLongitude =
         longitude > minLong && longitude < maxLong;
@@ -110,20 +110,20 @@ const getRegionsCloseToBerlinWithDirect = regions => {
   return regionsCloseToBerlinWithDirect;
 
   console.log(regionsCloseToBerlinWithDirect.length);
-  helper.writeJsonToFile(
+  writeJsonToFile(
     cleanRegions(regionsCloseToBerlinWithDirect),
     "regionsCloseToBerlinWithDirect"
   );
 };
 
-const getRegionsByCountry = regions => {
+const getRegionsByCountry = (regions) => {
   const regionsByCountry = regions.reduce(
     (countries, region) => {
       const countryCode = region.location.country.code;
       if (countries.hasOwnProperty(countryCode)) {
         countries[countryCode] = [
           ...countries[countryCode],
-          region
+          region,
         ];
       } else {
         countries[countryCode] = [region];
@@ -136,9 +136,9 @@ const getRegionsByCountry = regions => {
   return regionsByCountry;
 };
 
-const getRegionsWithConnectionToBerlin = regions => {
+const getRegionsWithConnectionToBerlin = (regions) => {
   const regionsWithConnectionToBerlin = regions.filter(
-    region => {
+    (region) => {
       return region.connections.includes(
         Number(berlinRegion.code)
       );
@@ -157,4 +157,4 @@ const cleanedRegions = cleanRegions(
 const regionsByCountry = getRegionsByCountry(
   cleanedRegions
 );
-helper(regionsByCountry, "regionsWithConnectionToBerlin");
+// helper(regionsByCountry, "regionsWithConnectionToBerlin");
