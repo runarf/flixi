@@ -12,23 +12,29 @@ export const getJourneyStationsAndCheapestPrice = (
       const currentJourneyStation: Station = (isGoingThere
         ? legs[0].origin
         : legs[legs.length - 1].destination) as Station;
+
+      // Is this needed?
       const stationIsAlreadyInListOfStations = journeyStationsAndCheapestPrice.stations.some(
         (station) =>
           station.name === currentJourneyStation.name &&
           station.id === currentJourneyStation.id
       );
+
       const stationsForJourney = stationIsAlreadyInListOfStations
         ? [...journeyStationsAndCheapestPrice.stations]
         : [
             ...journeyStationsAndCheapestPrice.stations,
             currentJourneyStation,
           ];
+
       const journeyPrice = journey.price.amount;
       const currentCheapestPrice =
         journeyStationsAndCheapestPrice.cheapestPrice;
+
       const currentJourneyIsTheCheapestSoFar =
         currentCheapestPrice === 0 ||
         journeyPrice < currentCheapestPrice;
+
       const cheapestPrice = currentJourneyIsTheCheapestSoFar
         ? journeyPrice
         : currentCheapestPrice;

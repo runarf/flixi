@@ -12,6 +12,7 @@ export const getSameJourneysWithDifferentStops = (
   >((sameJourneysWithDifferentStopsById, journey) => {
     const journeyIdParts = journey.id.split("-");
     const journeyId = journeyIdParts[1];
+
     let sameJourneys: Journey[];
     if (journeyId in sameJourneysWithDifferentStopsById) {
       const previousJourneys =
@@ -25,6 +26,7 @@ export const getSameJourneysWithDifferentStops = (
       [journeyId]: sameJourneys,
     };
   }, {});
+
   const allSameJourneysWithDifferentStops: Journey[][] = Object.entries(
     sameJourneysWithDifferentStopsById
   ).map(

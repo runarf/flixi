@@ -36,7 +36,7 @@ const concatenateJourneysOneWay = (
       return b.price.amount - a.price.amount;
     });
 
-  const concatenatedJourneys = concatenateSimilarJourneys(
+  const concatenatedJourneys: Journey[] = concatenateSimilarJourneys(
     availableJourneys,
     isGoingThere
   );

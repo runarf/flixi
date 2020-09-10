@@ -8,12 +8,10 @@ import {
 export const convertJourneyToTrip = (
   journey: Journey
 ): Trip => {
-  const legs = journey.legs;
+  const { legs } = journey;
 
   const departureLeg = legs[0];
   const arrivalLeg = legs[legs.length - 1];
-
-  //const departureOriginIsBerlin =
 
   const origin: Station[] = Array.isArray(
     departureLeg.origin
